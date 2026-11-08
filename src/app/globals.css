@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f0a07;
+  --foreground: #f5edd8;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(212, 163, 75, 0.12) 0%, transparent 65%),
+    radial-gradient(circle at 100% 100%, rgba(140, 53, 35, 0.08) 0%, transparent 45%),
+    radial-gradient(circle at 0% 100%, rgba(20, 241, 149, 0.04) 0%, transparent 40%);
+  min-height: 100vh;
+}
+
+/* Vintage Western Engraved Headings */
+h1, h2, h3, h4 {
+  font-family: Georgia, "Playfair Display", serif;
+  letter-spacing: 0.05em;
+}
+
+/* Custom Midwestern Frontier scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #140d09;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #442a1b;
+  border: 1px solid #633f2a;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c8963e;
+}
+
+/* Wallet adapter modal classic styling */
+.wallet-adapter-modal-wrapper {
+  background: #18110b !important;
+  border: 2px solid #633f2a !important;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.95), inset 0 0 15px rgba(212, 163, 75, 0.1) !important;
+  border-radius: 0.75rem !important;
+  font-family: Georgia, serif !important;
+}
+
+.wallet-adapter-button {
+  font-family: Georgia, serif !important;
+}
+
+.wallet-adapter-button-trigger {
+  background: linear-gradient(180deg, #d4a34b, #a67425) !important;
+  color: #120a05 !important;
+  font-weight: 700 !important;
+  border: 1px solid #e6be68 !important;
+  border-radius: 0.4rem !important;
+  padding: 0 1.25rem !important;
+  height: 2.4rem !important;
+  font-size: 0.85rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.05em !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6), inset 0 1px 1px rgba(255, 255, 255, 0.4) !important;
+  transition: all 0.2s ease !important;
+}
+
+.wallet-adapter-button-trigger:hover {
+  filter: brightness(1.15) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* Antique filigree divider */
+.ornament-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #c8963e;
+}
+
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #442a1b;
+}
+
+.ornament-divider:not(:empty)::before {
+  margin-right: .75em;
+}
+
+.ornament-divider:not(:empty)::after {
+  margin-left: .75em;
+}
