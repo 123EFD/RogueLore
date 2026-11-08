@@ -77,10 +77,4 @@ Open [http://localhost:3005](http://localhost:3005) in your browser.
 
 ---
 
-## 🏆 Hackathon Demo Script (2-Minute Video Flow)
 
-1. **Hook (0:00 - 0:25):** Introduce RogueLore. Connect Phantom wallet in the top right on Solana DevNet.
-2. **AI Gameplay (0:25 - 0:50):** Demonstrate the AI Dungeon Master. Enter a custom creative action (e.g., *"I kick the brazier into the skeleton's face and leap behind the sarcophagus"*). Show the AI dynamically responding with custom narrative and combat damage.
-3. **On-Chain Loot (0:50 - 1:20):** Slay the boss. Reveal the glowing loot card. Click **"Claim Loot to Solana Wallet"**, approve the zero-cost transaction, and open the Solscan link to prove on-chain provenance.
-4. **Necromancer Revive (1:20 - 1:45):** Take lethal damage to trigger the Game Over screen. Click **"Bribe Necromancer (0.01 DevNet SOL)"**, sign the revival pact, and show the character returning to life.
-5. **Conclusion (1:45 - 2:00):** Recap why Solana + AI make games better: instant micro-transactions, true asset ownership, and infinite replayability.
